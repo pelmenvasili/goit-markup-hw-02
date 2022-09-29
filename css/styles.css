@@ -1,0 +1,179 @@
+body {
+  font-family: 'Roboto', sans-serif;
+  color: var(--main-color-text);
+  letter-spacing: 0.03em;
+  line-height: 1.2;
+  font-weight: 700;
+  font-size: 16px;
+  background-color: var(--add-color-text);
+}
+:root {
+  --main-color-text: #212121;
+  --second-color-text: #757575;
+  --accent-color-text: #2196f3;
+  --add-color-text: #ffffff;
+  --address-accent: rgba(255, 255, 255, 0.6);
+  --studio-accent: #000000;
+  --main-color-bcg: #f5f5f5;
+  --second-color-bcg: #2f303a;
+  --accent-color-bcg: #f5f4fa;
+  --second-letter-spacing: 0.06em;
+  --second-font-size: 14px;
+  --accent-hero-button: #188ce8;
+}
+.button {
+  cursor: pointer;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.62em;
+  font-family: inherit;
+  border: none;
+}
+.button,
+.our-team {
+  background-color: var(--accent-color-bcg);
+}
+.logo {
+  font-family: 'Raleway';
+  font-size: 26px;
+  color: var(--studio-accent);
+}
+.nav-link {
+  font-weight: 500;
+  font-size: var(--second-font-size);
+  letter-spacing: 0.02em;
+}
+.nav-link:hover,
+.nav-link:focus,
+.nav-link:active,
+.accent,
+.address-mail:hover,
+.address-mail:focus,
+.address-mail:active,
+.address-phone:hover,
+.address-phone:focus,
+.address-phone:active {
+  color: var(--accent-color-text);
+}
+.button:hover,
+.button:focus,
+.button:active,
+.hero-button {
+  background-color: var(--accent-color-text);
+}
+.card-title {
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: var(--second-letter-spacing);
+}
+.card-description {
+  line-height: 1.88em;
+  font-weight: 400;
+}
+.address-links {
+  font-size: var(--second-font-size);
+  font-style: normal;
+  line-height: 1.71;
+  font-weight: 400;
+}
+.address-map,
+.part-logo,
+.hero-title,
+.hero-button,
+.button:hover,
+.button:focus,
+.button:active {
+  color: var(--add-color-text);
+}
+.address-mail,
+.address-phone {
+  color: var(--address-accent);
+}
+.hero,
+.footer-menu {
+  background-color: var(--second-color-bcg);
+}
+.hero-title {
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+  letter-spacing: var(--second-letter-spacing);
+}
+.hero-button {
+  line-height: 1.88em;
+  font-weight: 700;
+  font-size: 16px;
+  letter-spacing: var(--second-letter-spacing);
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
+  font-family: inherit;
+  border: none;
+}
+.hero-button:hover,
+.hero-button:focus,
+.hero-button:active {
+  background-color: var(--accent-hero-button);
+}
+.benefit-title {
+  font-size: var(--second-font-size);
+  line-height: 1.14;
+}
+.benefit-description {
+  font-size: var(--second-font-size);
+  line-height: 1.71;
+  font-weight: 400;
+}
+.benefit-description,
+.member-speciality,
+.card-description,
+.mail,
+.phone {
+  color: var(--second-color-text);
+}
+.title {
+  font-size: 36px;
+}
+.visually-hidden {
+  position: absolute;
+  white-space: nowrap;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  border: 0;
+  padding: 0;
+  clip: rect(0 0 0 0);
+  clip-path: inset(50%);
+  margin: -1px;
+}
+.list {
+  list-style-type: none;
+}
+.link {
+  text-decoration: none;
+}
+.contacts,
+.portfolio,
+.studio {
+  color: var(--main-color-text);
+}
+.current {
+  color: var(--accent-color-text);
+}
+.team-card {
+  background-color: var(--add-color-text);
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
+    0px 2px 1px rgba(0, 0, 0, 0.2);
+  border-radius: 0px 0px 4px 4px;
+  width: 270px;
+}
+.card {
+  border: 1px solid #eeeeee;
+  width: 370px;
+}
+.team-member {
+  font-size: 16px;
+  font-weight: 500;
+}
+.member-speciality {
+  font-weight: 400;
+}
