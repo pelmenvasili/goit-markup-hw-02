@@ -102,9 +102,9 @@ body {
   text-transform: uppercase;
 }
 .hero-button {
-  line-height: 1.88;
   font: inherit;
   font-weight: var(--main-font-weight);
+  line-height: 1.88;
   letter-spacing: var(--second-letter-spacing);
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   border-radius: 4px;
