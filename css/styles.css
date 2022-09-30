@@ -14,8 +14,8 @@ body {
   --main-color-bcg: #f5f5f5;
   --second-color-bcg: #2f303a;
   --accent-color-bcg: #f5f4fa;
-  --main-letter-spacing: 0.03;
-  --second-letter-spacing: 0.06;
+  --main-letter-spacing: 0.03em;
+  --second-letter-spacing: 0.06em;
   --second-font-size: 14px;
   --accent-hero-button: #188ce8;
   --main-font-weight: 700;
