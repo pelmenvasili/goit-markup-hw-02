@@ -1,9 +1,6 @@
 body {
   font-family: 'Roboto', sans-serif;
   color: var(--main-color-text);
-  letter-spacing: 0.03em;
-  line-height: 1.2;
-  font-weight: 700;
   font-size: 16px;
   background-color: var(--add-color-text);
 }
@@ -17,16 +14,18 @@ body {
   --main-color-bcg: #f5f5f5;
   --second-color-bcg: #2f303a;
   --accent-color-bcg: #f5f4fa;
-  --second-letter-spacing: 0.06em;
+  --main-letter-spacing: 0.03;
+  --second-letter-spacing: 0.06;
   --second-font-size: 14px;
   --accent-hero-button: #188ce8;
+  --main-font-weight: 700;
+  --second-font-weight: 500;
 }
 .button {
   cursor: pointer;
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 1.62em;
-  font-family: inherit;
+  font-weight: var(--second-font-weight);
+  line-height: 1.62;
+  font: inherit;
   border: none;
 }
 .button,
@@ -37,11 +36,14 @@ body {
   font-family: 'Raleway';
   font-size: 26px;
   color: var(--studio-accent);
+  font-weight: var(--main-font-weight);
+  line-height: 1.19;
 }
 .nav-link {
-  font-weight: 500;
+  font-weight: var(--second-font-weight);
   font-size: var(--second-font-size);
   letter-spacing: 0.02em;
+  line-height: 1.14;
 }
 .nav-link:hover,
 .nav-link:focus,
@@ -62,19 +64,18 @@ body {
   background-color: var(--accent-color-text);
 }
 .card-title {
+  font-weight: var(--main-font-weight);
   font-size: 18px;
   line-height: 2;
   letter-spacing: var(--second-letter-spacing);
 }
 .card-description {
-  line-height: 1.88em;
-  font-weight: 400;
+  line-height: 1.88;
 }
 .address-links {
   font-size: var(--second-font-size);
   font-style: normal;
   line-height: 1.71;
-  font-weight: 400;
 }
 .address-map,
 .part-logo,
@@ -98,15 +99,15 @@ body {
   font-size: 44px;
   line-height: 1.36;
   letter-spacing: var(--second-letter-spacing);
+  text-transform: uppercase;
 }
 .hero-button {
-  line-height: 1.88em;
-  font-weight: 700;
-  font-size: 16px;
+  line-height: 1.88;
+  font-weight: var(--main-font-weight);
   letter-spacing: var(--second-letter-spacing);
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   border-radius: 4px;
-  font-family: inherit;
+  font: inherit;
   border: none;
 }
 .hero-button:hover,
@@ -115,13 +116,14 @@ body {
   background-color: var(--accent-hero-button);
 }
 .benefit-title {
+  font-weight: var(--main-font-weight);
   font-size: var(--second-font-size);
   line-height: 1.14;
+  text-transform: uppercase;
 }
 .benefit-description {
   font-size: var(--second-font-size);
   line-height: 1.71;
-  font-weight: 400;
 }
 .benefit-description,
 .member-speciality,
@@ -131,7 +133,9 @@ body {
   color: var(--second-color-text);
 }
 .title {
+  font-weight: var(--main-font-weight);
   font-size: 36px;
+  line-height: 1.17;
 }
 .visually-hidden {
   position: absolute;
@@ -171,9 +175,20 @@ body {
   width: 370px;
 }
 .team-member {
-  font-size: 16px;
-  font-weight: 500;
+  font-weight: var(--second-font-weight);
+  line-height: 1.19;
 }
 .member-speciality {
-  font-weight: 400;
+  line-height: 1.19;
+}
+.logo,
+.benefit-title,
+.benefit-description,
+.title,
+.team-member,
+.member-speciality,
+.address-links,
+.button,
+.card-description {
+  letter-spacing: var(--main-letter-spacing);
 }
