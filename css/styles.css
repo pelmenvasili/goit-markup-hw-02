@@ -22,10 +22,10 @@ body {
   --second-font-weight: 500;
 }
 .button {
+  font: inherit;
   cursor: pointer;
   font-weight: var(--second-font-weight);
   line-height: 1.62;
-  font: inherit;
   border: none;
 }
 .button,
