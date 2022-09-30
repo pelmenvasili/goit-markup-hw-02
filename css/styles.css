@@ -176,6 +176,7 @@ body {
 }
 .team-member {
   font-weight: var(--second-font-weight);
+  font-size: 16px;
   line-height: 1.19;
 }
 .member-speciality {
